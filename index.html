@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="Styles/SyntaxHighlighter.css">
+		<script language="javascript" src="Scripts/shCore.js"></script>
+		<!--<script language="javascript" src="Scripts/shBrushPython.js"></script>-->
+		<script language="javascript" src="Scripts/shBrushXml.js"></script>
+	</head>
+	<body>
+	<h1 id="language-used"></h1>
+		<textarea name="code" id="code" class="java" style="width:1000px;height:300px"></textarea>
+		<table>
+			<tr>
+				<td>
+					<button id="commit-code" style="width:100%;margin-top:5px;">Commit code</button>
+				</td>
+				
+				<td>
+					<button id="generate-code" style="width:100%;margin-top:5px">Generate code</button>
+				</td>
+				
+				<td>
+					<button id="clear-generated-code" style="width:100%;margin-top:5px">Clear generated code</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button id="show-code" style="width:100%;margin-top:5px">Show code</button>
+				</td>
+				
+				<td>
+					<button id="hide-code" style="width:100%;margin-top:5px">Hide code</button>
+				</td>
+				
+				<td>
+					<button id="clear-code" style="width:100%;margin-top:5px">Clear code</button>
+				</td>
+			</tr>
+		</table>
+		<h2>Please use:</h2>
+		<p style="margin-left:20px;"><a href="?lang=python">index.html?lang=python</a> for selecting Python (Default).<br> <a href="?lang=java">index.html?lang=java</a> for Java.</p>
+			<script src="Scripts/validateRequestType.js"></script>
+			<script src="Scripts/buttonsListeners.js"></script>
+	</body>
+</html>
